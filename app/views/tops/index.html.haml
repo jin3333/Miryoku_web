@@ -1,0 +1,64 @@
+.main
+  .header
+    .header__name
+      = link_to root_path do
+        味力亭
+    .header__tell
+      ご予約、お問い合わせはこちらへ
+    .header__tell__2
+      0000-00000-00000
+  .main__info
+    .main__info__pic
+      %ul.multiple-items
+        %li
+          = image_tag "adpDSC_4890.jpg", class:"store-imag"
+        %li
+          = image_tag "adpDSC_6550.jpg", class:"store-imag"
+        %li
+          = image_tag "DSCF5975.jpg", class:"store-imag"
+        %li
+          = image_tag "adpDSC_4890.jpg", class:"store-imag"
+        %li
+          = image_tag "adpDSC_6550.jpg", class:"store-imag"
+        %li
+          = image_tag "DSCF5975.jpg", class:"store-imag"
+        %li
+          = image_tag "adpDSC_4890.jpg", class:"store-imag"
+        %li
+          = image_tag "adpDSC_6550.jpg", class:"store-imag"
+        %li
+          = image_tag "DSCF5975.jpg", class:"store-imag"
+  .introduce__box
+    .introduce__box__list
+      .introduce__box__list__menu
+        = link_to root_path do
+          メニュー
+      .introduce__box__list__another
+        = link_to root_path do
+          系列店
+      .introduce__box__list__info
+        = link_to root_path do
+          店舗情報
+      .introduce__box__list__letter
+        = link_to root_path do
+          店主思い
+      .introduce__box__list__staff
+        = link_to root_path do
+          スタッフ
+  .store__info
+    .store__info__adress__name
+      %h1 住所
+      %h2 和歌山県岩出市清水232-1
+      %h1 営業時間
+      %h2 AM11:00 ~ PM11:00
+      %h1 定休日
+      %h2 毎週火曜日
+      %h3 ※営業時間が上記とは異なる場合がございますがご了承ください。
+    .store__info__adress__map
+      = render "map"
+  .footer
+    .footer__menu
+      %p 居酒屋をお探しならば味力亭へ
+    .footer__copy
+      %p　COPYRIGHT © JIN NAKAMURA ALL RIGHTS RESERVED.
+
