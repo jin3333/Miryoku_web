@@ -1,0 +1,2 @@
+module PassionHelper
+end
