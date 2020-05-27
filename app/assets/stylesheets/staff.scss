@@ -1,3 +1,30 @@
-// Place all the styles related to the staff controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.staff__list {
+  padding-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 60px;
+    font-family: 'klee',sans-serif;
+    font-weight: bold;
+  }
+  &__name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    h2 {
+      font-size: 47px;
+      font-family: 'Kaiti SC',sans-serif;
+    }
+    &__imag {
+      display: flex;
+      .staff__pic {
+        height: 300px;
+        width: 450px;
+      }
+      &__text {
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 20px;
+      }
+    }
+  }
+}

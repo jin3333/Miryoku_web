@@ -6,16 +6,18 @@
     font-size: 60px;
     font-family: 'klee',sans-serif;
     font-weight: bold;
+    border-bottom:solid;
+    border-width: thin ;
   }
   &__title {
     margin-top: 30px;
     margin-bottom: 40px;
     
+    
     h2 {
       font-size: 47px;
       font-family: 'Kaiti SC',sans-serif;
-      border-bottom:solid;
-      border-width: thin ;
+    
     }
   
   &__detile {
