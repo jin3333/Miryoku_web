@@ -48,7 +48,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
+
+
   <<: *default
-  database: miryoku_web_production
-  username: miryoku_web
-  password: <%= ENV['MIRYOKU_WEB_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
