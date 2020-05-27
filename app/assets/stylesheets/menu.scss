@@ -1,3 +1,28 @@
-// Place all the styles related to the menu controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.menu {
+  padding-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 60px;
+    font-family: 'klee',sans-serif;
+    font-weight: bold;
+  }
+  &__category {
+    margin-bottom: 30px;
+  &__name {
+    border-bottom:solid;
+    border-width: thin ;
+    font-size: 47px;
+    font-family: 'Kaiti SC',sans-serif;
+  }
+  &__list {
+    display: flex;
+    p {
+      writing-mode: vertical-rl;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+}
