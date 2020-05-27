@@ -1,3 +1,27 @@
-// Place all the styles related to the storeinfo controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.store__data {
+  padding-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 60px;
+    font-family: 'klee',sans-serif;
+    font-weight: bold;
+  }
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+    h2 {
+      font-size: 47px;
+      font-family: 'Kaiti SC',sans-serif;
+      border-bottom:solid;
+      border-width: thin ;
+    }
+  
+  &__detile {
+    h3 {
+      font-size: 25px;
+    }
+  }
+ }
+}

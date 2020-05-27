@@ -1,3 +1,26 @@
-// Place all the styles related to the passion controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.shop__manager {
+  padding-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 60px;
+    font-family: 'klee',sans-serif;
+    font-weight: bold;
+  }
+  &__name {
+    margin-top: 20px;
+    h2 {
+    font-size: 47px;
+    font-family: 'Kaiti SC',sans-serif;
+    }
+  }
+  &__pic {
+    display: flex;
+    margin-bottom: 50px;
+    .manager__pic {
+      height: 300px;
+      width: 450px;
+
+    }
+  }
+}
