@@ -1,24 +1,21 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# アプリ名 
+## ホームページ作成
+# 概要
+知人の方の居酒屋のホームページを作成しました。
+まだ実用化はしていないのですがこれから実用化予定です。
+# 制作背景(意図)
+　自分の服を本当に服が好きな人にかってもらいたかったからです。私自信服に興味があるのですが、
+　いらなくなった服をフリマアプリに出すのは少し抵抗があるので、古着専用のフリマアプリを作りたかったからです。
+　その中で自分のコーディネートを載せれたら着こなしをイメージしやすいのでコーディネート画像をトップに持ってきました。
+# DEMO
+## トップページの画像です
+　https://gyazo.com/0368268ba9af55833e6775623c070680
+## 実際に使ったGIFです
+  https://i.gyazo.com/485e56811857e52af5f3d7a3e78205f4.gif
+# 実装予定の内容
+  商品の出品、購入機能です。まだサービスの大元のフリマ要素を実装できていないので実装予定です。
+# 本番環境のURLとテストアカウント
+　URL:http://54.250.62.142/
+  アカウント
+  email: a@a.com
+  Password: test1111
